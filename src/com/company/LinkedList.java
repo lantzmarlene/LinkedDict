@@ -1,10 +1,6 @@
 package com.company;
 
-import com.sun.xml.internal.ws.util.xml.CDATA;
-
-import java.io.File;
-
-public class LinkedList<S> {
+public class LinkedList<E> {
 
     //Properties
     Node head;
@@ -20,6 +16,11 @@ public class LinkedList<S> {
         head = newHead;
         count+=1;
     }
+
+    public static void inOrder(java.util.LinkedList<String> linkedList) {
+
+    }
+
     //Methods
         //add
         public void add(String newData){
@@ -39,7 +40,7 @@ public class LinkedList<S> {
         }
 
         //Sorted Merge
-        public Node sortedMerge(Node a, Node b){
+        /*public Node sortedMerge(Node a, Node b){
             Node result = null;
             //Base cases
             if(a == null){
@@ -93,7 +94,23 @@ public class LinkedList<S> {
                 fast = fast.next.next;
             }
             return slow;
+        }*/
+
+    public void add(int index, String newData) {
+        Node temp = new Node(newData);
+        if (head == null) {
+            head = temp;
+            count = 1;
+            return;
         }
+        Node current = head;
+
+        while (current.getNext() != null) {
+            current = current.getNext();
+        }
+        current.setNext(temp);
+        count++;
+    }
 
         //display
         public void displayList(){
@@ -102,7 +119,7 @@ public class LinkedList<S> {
             Node current = head;
 
             while(current != null){
-                System.out.println(current.str+" ");
+                System.out.println(current.data + " ");
 
                 current = current.next;
             }
@@ -110,15 +127,15 @@ public class LinkedList<S> {
         }
 
         //get
-        public int get(int index){
+        public String get(int index) {
             if (index <= 0){
-                return -1;
+                return null;
             }
             Node current = head;
             for(int i = 1; i<index; i++){
                 current = current.getNext();
             }
-            return current.getData();
+            return current.getString();
         }
 
         //size
@@ -142,12 +159,14 @@ public class LinkedList<S> {
             count--;
         }
 
-        //sort
-        public void sort(Node head, int data){
-
-            if (head == null || head.data > data){
-
+    public String getByIndex(int index) {
+        if (index < 0) {
+            return null;
             }
+        Node current = head;
+        for (int i = 0; i < index; i++) {
+            current = current.getNext();
         }
-
+        return current.getString();
+    }
 }
