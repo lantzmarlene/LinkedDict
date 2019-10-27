@@ -36,9 +36,12 @@ public class Main {
             if (x == linkedList.size()) {
                 linkedList.add(fileContents);
             }
+            System.out.println(lineNum);
 
         }
+
         for (int i = 0; i < linkedList.size(); i++) {
+
             System.out.println(linkedList.get(i));
             writer.write(linkedList.get(i) + "\n");
         }
