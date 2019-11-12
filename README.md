@@ -32,7 +32,21 @@
   
   3.2) Performance Testing
   
- 4.0) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *
+ 4.0) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *https://github.com/lantzmarlene/BinaryTreePrinciples*
+ 
+  4.1) Principle #1 -- Meaningful Names
+  
+  4.2) Principle #2 -- Keep Functions Small
+  
+  4.3) Principle #3 -- Avoid Redundant Commenting
+  
+  4.4) Principle #4 -- Single Responsibility Principle
+  
+  4.5) Principle #5 -- Don't Repeat Yourself
+  
+  4.6) Principle #6 -- Keep Your Code Simple
+  
+  4.7) Principle #7 -- You Ain't Gonna Need It
 
 ## 1.0) The Requisites:
 
