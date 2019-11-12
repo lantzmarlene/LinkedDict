@@ -2,24 +2,39 @@
 > This project is brought to you by Marlene Lantz and Ignacio Gonzalez
 
 ## Table of Contents:
- 1.0) The Requisites
- 2.0) How the Code Works
-  2.1) Binary Tree Method
-    2.1.1) Node Class
-    2.1.2) Binary Tree Class
-    2.1.3) Main Class
-   2.2) LinkedList Method
-    2.2.1) Node Class
-    2.2.2) LinkedList Class
-    2.2.3) Main Class
-  3.0) Testing *please consult README file in Repository named BinaryTreeTest: https://github.com/lantzmarlene/BinaryTreeTest*
-   3.1) Verification Testing
-    3.1.1) UserInput Method
-    3.1.2) Test Method
-   3.2) Performance Testing
-  4.0) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *
+1.0) The Requisites
+ 
+2.0) How the Code Works
+  
+ 2.1) Binary Tree Method
+    
+   2.1.1) Node Class
+    
+   2.1.2) Binary Tree Class
+    
+   2.1.3) Main Class
+   
+  2.2) LinkedList Method
+    
+   2.2.1) Node Class
+   
+   2.2.2) LinkedList Class
+   
+   2.2.3) Main Class
+ 
+ 3.0) Testing *please consult README file in Repository named BinaryTreeTest: https://github.com/lantzmarlene/BinaryTreeTest*
+  
+  3.1) Verification Testing
+   
+   3.1.1) UserInput Method
+   
+   3.1.2) Test Method
+  
+  3.2) Performance Testing
+  
+ 4.0) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *
 
-## 1) The Requisites:
+## 1.0) The Requisites:
 
 > "You have to create in pairs a JAVA project to manage a dictionary built using Linked lists"
 
@@ -34,7 +49,7 @@
   ** If the argument is a number, the corresponding word placed in that position in the ordered linked list “dictionary” should be printed out on the console
   ** If the argument is a word, the application should print out in the console the number that represent the order of that word inside the dictionary. If it doesn’t exist, it should write “-1”.
  
-## 2) How the Code Works:
+## 2.0) How the Code Works:
 
 Our code is comprised of three classes in both the faster and the normal method. In this document, we will explain the faster method as it works better and is more efficient. Later on in this document, we will explain the LinkedList method of sorting through the documents and how it works. 
 
