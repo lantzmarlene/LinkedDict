@@ -2,9 +2,9 @@
 > This project is brought to you by Marlene Lantz and Ignacio Gonzalez
 
 ## Table of Contents:
- 1) The Requisites
+ 1.0) The Requisites
  
- 2) How the Code Works
+ 2.0) How the Code Works
   
   2.1) Binary Tree Method
    
@@ -22,7 +22,7 @@
    
    2.2.3) Main Class
  
- 3) Testing *please consult README file in Repository named BinaryTreeTest: https://github.com/lantzmarlene/BinaryTreeTest*
+ 3.0) Testing *please consult README file in Repository named BinaryTreeTest: https://github.com/lantzmarlene/BinaryTreeTest*
  
   3.1) Verification Testing
   
@@ -32,7 +32,7 @@
   
   3.2) Performance Testing
  
- 4) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *
+ 4.0) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *
 
 ## 1) The Requisites:
 
