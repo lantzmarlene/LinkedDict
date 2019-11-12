@@ -3,7 +3,6 @@
 
 ## Table of Contents:
  1.0) The Requisites
- 
  2.0) How the Code Works
   2.1) Binary Tree Method
     2.1.1) Node Class
