@@ -3,16 +3,35 @@
 
 ## Table of Contents:
  1) The Requisites
+ 
  2) How the Code Works
+  
   2.1) Binary Tree Method
+   
    2.1.1) Node Class
+   
    2.1.2) Binary Tree Class
+   
    2.1.3) Main Class
+  
   2.2) LinkedList Method
+   
    2.2.1) Node Class
+   
    2.2.2) LinkedList Class
+   
    2.2.3) Main Class
+ 
  3) Testing *please consult README file in Repository named BinaryTreeTest: https://github.com/lantzmarlene/BinaryTreeTest*
+ 
+  3.1) Verification Testing
+  
+   3.1.1) UserInput Method
+   
+   3.1.2) Test Method
+  
+  3.2) Performance Testing
+ 
  4) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *
 
 ## 1) The Requisites:
