@@ -1,15 +1,21 @@
 # PairProgramming
 > This project is brought to you by Marlene Lantz and Ignacio Gonzalez
 
-You will work in pairs 
- * First create a project on Gitub (follow the usual instructions)
- * Clone the project on one's computer
- * Both memebers will be coding in one's computer
- * When they decide, they will commit the code, push it to a repository created by themselves and then the other member will fork it, clone it and start making modifications on the other's computer
+## Table of Contents:
+ 1) The Requisites
+ 2) How the Code Works
+  2.1) Binary Tree Method
+   2.1.1) Node Class
+   2.1.2) Binary Tree Class
+   2.1.3) Main Class
+  2.2) LinkedList Method
+   2.2.1) Node Class
+   2.2.2) LinkedList Class
+   2.2.3) Main Class
+ 3) Testing *please consult README file in Repository named BinaryTreeTest: https://github.com/lantzmarlene/BinaryTreeTest*
+ 4) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *
 
-It doesnt' matter in which computer you are working, both of you will be all the time discussing the code and making modifications on just one computer
-
-## The Requisites:
+## 1) The Requisites:
 
 > "You have to create in pairs a JAVA project to manage a dictionary built using Linked lists"
 
@@ -24,17 +30,15 @@ It doesnt' matter in which computer you are working, both of you will be all the
   ** If the argument is a number, the corresponding word placed in that position in the ordered linked list “dictionary” should be printed out on the console
   ** If the argument is a word, the application should print out in the console the number that represent the order of that word inside the dictionary. If it doesn’t exist, it should write “-1”.
  
-## How the Code Works:
+## 2) How the Code Works:
 
 Our code is comprised of three classes in both the faster and the normal method. In this document, we will explain the faster method as it works better and is more efficient. Later on in this document, we will explain the LinkedList method of sorting through the documents and how it works. 
 
-#### BinaryTree Method --
+#### 2.1) BinaryTree Method --
 
 Essentially, a Main class (where the actual programme is run), a Node class and a Binary Tree class was created.
 
-
-
-##### Node Class:
+##### 2.1.1) Node Class:
 To start let's take a look at our Node class:
 
     package com.company;
@@ -100,7 +104,7 @@ Lastly as a good practice we set up getter methods, although our variables are p
         }
 
 
-##### BinaryTree Class:
+##### 2.1.2) BinaryTree Class:
 
     package com.company;
 
@@ -179,7 +183,7 @@ I will explain the most important method here:
 
 This method is what actually allows the content you choose to be sorted. Essentially what it is doing is it is visiting the left "tree" and calling the inOrterT method, it then visits the root Node and then does the same to the right "tree" by calling the inOrderT method. It is essentially a recursive function. 
 
-##### Main Class:
+##### 2.1.3) Main Class:
 
     package com.company;
 
@@ -258,10 +262,10 @@ Here we are gaining access, locating and reading from the file that contains the
 
 In this method we are doing several things. First we are creating a String value called fileContents and setting it equal to nothing. Then we are actually creating our LinkedList object and then our BinaryTree object. We then establish a while loop and here we are telling Java that while there is a nextLine within the file we are reading to execute the following code. We are then setting our empty variable of fileContents to the line within the file and we add that element to the our LinkedList. This is only if there is no other content in the LinkedList, however if there is content in the LinkedList then we insert our fileContents into our Binary tree. Lastly we want to output what we have essentially inserted into our Tree to another file. At this stage our two files are the same until the next method (tree.inorderTraversal) is called. Here is where we actually start sorting our output and this method takes a parameter to determine where it should output the content, in this case it is within our PrintWriter object where it will store the content in a file we create called sorteddict.txt.
 
-#### LinkedList Method --
+#### 2.2) LinkedList Method --
 Again, a Main class (where the actual programme is run), and Node class and a LinkedList class was created. We understand that Java has its own LinkedList object that could be used, however we wanted to add additional functionality to our LinkedList object as well as gain a fundamental understanding of how LinkedLists actually work. For this reason we decided it would be better to code it from scratch.
 
-##### Node Class:
+##### 2.2.1) Node Class:
 
     package com.company;
 
@@ -389,7 +393,7 @@ Again, as a good practice we set up our getter and setter methods so that we may
 
 
 
-##### LinkedList Class:
+##### 2.2.2) LinkedList Class:
     package com.company;
 
     public class LinkedList<E> {
@@ -507,7 +511,7 @@ Again, as a good practice we set up our getter and setter methods so that we may
     }
 
 
-##### Main Class:
+##### 2.2.3) Main Class:
 package com.company;
 
     import java.io.*;
