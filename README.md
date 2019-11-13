@@ -32,7 +32,7 @@
   
   3.2) Performance Testing
   
- 4.0) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: *https://github.com/lantzmarlene/BinaryTreePrinciples*
+ 4.0) Coding Principles *please consult README file in Repository named BinaryTreePrinciples: https://github.com/lantzmarlene/BinaryTreePrinciples*
  
   4.1) Principle #1 -- Meaningful Names
   
